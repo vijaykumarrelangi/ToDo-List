@@ -1,0 +1,67 @@
+/* Task List */
+.task-list {
+    margin-bottom: 40px;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .task-table th,
+  .task-table td {
+    padding: 15px;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  
+  .task-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .task-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  /* Action Buttons */
+  .task-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button.edit-btn {
+    background-color: #f39c12;
+  }
+  
+  button.delete-btn {
+    background-color: #e74c3c;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+  
+  .pagination button {
+    background-color: #3498db;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+  }
+  
+  .pagination button:hover {
+    background-color: #2980b9;
+  }
